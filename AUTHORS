@@ -1,0 +1,89 @@
+MSPDebug is mostly written by Daniel Beer <dlbeer@gmail.com>. Other
+people who have made significant contributions are listed here.
+
+Doug Forman <doug.dougforman@gmail.com>:
+	* Testing and analysis for TI Chronos devices.
+	* Testing and analysis for FET430UIF firmware version 20404000.
+
+Robert Kavaler <kavaler@diva.com>:
+	* Author of uif430, from which much of the code in fet.c is
+          derived (uif430 is available from www.relavak.com).
+
+Hans Nieuwenhuis <vzzbx@xs4all.nl>:
+	* Support for MSP430F2132.
+
+Peter Jansen <pwjansen@yahoo.com>:
+        * Support for MSP430F169.
+        * Testing and analysis for Olimex MSP430-JTAG-TINY.
+        * libusb driver for Olimex MSP430-JTAG-TINY.
+
+Aurélien Gauducheau <aurelien.gauducheau@gmail.com>, Bondois Nicolas.
+Laboratoire Domus: Recherche en domotique et en informatique mobile
+(http://domus.usherbrooke.ca/?locale=en). Under supervision of
+Bessam Abdulrazak (http://pages.usherbrooke.ca/babdulrazak/):
+        * Testing and analysis for MSP430F5529.
+
+Andres Vahter <andres.vahter@gmail.com>:
+	* Support for MSP430F2234.
+
+Robert Spanton <rspanton@zepler.net>:
+	* Support for FET430UIF bootloader programming.
+	* GDB protocol improvements.
+
+Stephen Kench <stephen@pmssystems.com>
+	* Support for MSP430F47197.
+
+Sören Höckner <soeren.hoeckner@gmx.de>:
+	* Testing and debugging of flash memory word-alignment bug.
+
+Andrew Armenia <andrew@asquaredlabs.com>:
+	* flash-bsl driver.
+
+James Laird <james.laird@nicta.com.au>:
+	* Support for CC430F5133.
+
+Stefan Mahr <Stefan.Mahr@sphairon.com>:
+	* Initial support, testing and analysis for Olimex
+	  MSP430-JTAG-ISO.
+
+Jasper Lievisse Adriaanse <jasper@openbsd.org>:
+	* Ported to OpenBSD.
+
+Ionut Nicu <ionut.nicu@mindbit.ro>:
+	* Support for MSP430F47173 and MSP430F5526.
+	* --force-reset option.
+
+Paul Fleischer <paul@xpg.dk>:
+	* Support for MSP430G2553.
+
+Kurt Snieckus <ksnieck@gmail.com>:
+	* Testing and analysis for MSP430FR5739.
+
+James Nuss <jamesnuss@nanometrics.ca>:
+	* Support for MSP430F5418.
+
+Tamas Tevesz <ice@extreme.hu>:
+	* Improvements to interactive interface.
+	* Support for MSP430AFE253.
+
+Ingo van Lil <inguin@gmx.de>:
+	* Support for demangling of C++ function names.
+	* load_raw, verify_raw and save_raw commands.
+
+Stanimir Bonev <bonev_st@abv.bg>:
+	* Olimex chip database.
+	* Improved identification/configuration system for Olimex
+	  debuggers.
+
+Peter Bägel <peter@baegel.de>:
+	* JTAG interface library and parallel-port JTAG driver.
+
+Jose Angel Caso Sanchez <altomaltes@gmail.com>:
+	* FET v2 database from MSP430.DLL.
+
+Paolo Zebelloni <p.zebelloni@c-labs.it>:
+	* Testing, debugging and research for the ROM BSL driver.
+	* BSL entry via GPIOs.
+
+Jan Willeke <willeke@smartmote.de>:
+	* GPIO JTAG driver.
