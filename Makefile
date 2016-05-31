@@ -79,7 +79,7 @@ else
     endif
 endif
 
-INCLUDES = -I. -Isimio -Iformats -Itransport -Idrivers -Iutil -Iui -Iusblib
+INCLUDES = -I. -Isimio -Iformats -Itransport -Idrivers -Iutil -Iui -Ilibusb
 GCC_CFLAGS = -Wall -Wno-char-subscripts $(LDFLAGS)
 CONFIG_CFLAGS = -DLIB_DIR=\"$(LIBDIR)\"
 
@@ -118,9 +118,9 @@ install: $(BINARY) mspdebug.man
 .SUFFIXES: .c .o
 
 OBJ=\
-	usblib/usb.o \
-	usblib/chrome_usb.o \
-	usblib/descriptors.o \
+	libusb/usb.o \
+	libusb/chrome_usb.o \
+	libusb/descriptors.o \
     util/btree.o \
     util/expr.o \
     util/list.o \
