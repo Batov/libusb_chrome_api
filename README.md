@@ -39,8 +39,8 @@ Source-to-source port linux application (with libusb) to Chrome.
 		`LDFLAGS ?=  --preload-file firmware -s ASSERTIONS=1 -s EMTERPRETIFY=1 -s EMTERPRETIFY_ASYNC=1 -s EXPORTED_FUNCTIONS="['_main','_usb_os_find_busses_cb','_usb_os_find_devices_cb','_usb_os_open_cb','_ready_to_cont']" $(ASYNCFUNC)`
 		where `$(ASYNCFUNC)` - list of functions for interpreter. You can stay it is empty. Might be slow, but it should work! Might be =)
 	- rename binary (e.g mspdebug -> mspdebug.html)
-	- add precompiled files (e.g. devices firmwares) http://kripken.github.io/emscripten-site/docs/getting_started/Tutorial.html#using-files
-3. Edit your application's makefile for emscripten - http://kripken.github.io/emscripten-site/docs/porting/index.html
+	- add precompiled files (e.g. devices firmwares)  [Using files](http://kripken.github.io/emscripten-site/docs/getting_started/Tutorial.html#using-files)
+3. Edit your application's makefile for emscripten - [Porting](http://kripken.github.io/emscripten-site/docs/porting/index.html)
 
 
 
