@@ -46,12 +46,12 @@ Source-to-source port linux application (with libusb) to Chrome.
 Mspdebug 
 --------
 Base example of libusb port:
-1. To make it add emscripten to your PATH variable;
-2. `make WITHOUT_READLINE=1`;
-3. The result of it is mspdebug.js (JS source-to-source port);
-4. Add console call arguments to end of mspdebug (e.g. `Module.arguments=["rf2500","prog firmware/slow_blink.elf"];` , where firmware/slow_blink.elf is path to your precompiled firmware);
-5. And need to wrap it Chrome Application;
-6. Run it and permit access to your TI device;
+ - To make it add emscripten to your PATH variable;
+ - `make WITHOUT_READLINE=1`;
+ - The result of it is mspdebug.js (JS source-to-source port);
+ - Add console call arguments to end of mspdebug (e.g. `Module.arguments=["rf2500","prog firmware/slow_blink.elf"];` , where firmware/slow_blink.elf is path to your precompiled firmware);
+ - And need to wrap it Chrome Application;
+ - Run it and permit access to your TI device;
 
 
 
