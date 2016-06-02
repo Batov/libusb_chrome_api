@@ -50,7 +50,7 @@ Base example of libusb port:
  - `make WITHOUT_READLINE=1`;
  - The result of it is mspdebug.js (JS source-to-source port);
  - Add console call arguments to end of mspdebug (e.g. `Module.arguments=["rf2500","prog firmware/slow_blink.elf"];` , where firmware/slow_blink.elf is path to your precompiled firmware);
- - And need to wrap it Chrome Application;
+ - And need to wrap it Chrome Application (alpha sample at `chrome_app` folder);
  - Run it and permit access to your TI device;
 
 
